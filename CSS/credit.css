@@ -119,13 +119,28 @@ main{
     font-family: noto;
 }
 
+
 footer{
-    font-family: noto;
-    font-size: 75%;
-    text-align: end;
+    display: flex;
     margin-left: 10px;
     margin: auto;
     background: #6ad8e2;
     padding: 10px;
-    
+    padding-left: 20px;
+}
+
+.copyright{
+    flex: 1;
+    font-family: noto;
+    font-size: 80%;
+    text-align: end;
+    padding-top: 5px;
+}
+
+.social-media-icons{
+    flex: 1;
+}
+
+.social-media-icon{
+    height: 30px;
 }
